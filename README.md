@@ -15,7 +15,7 @@ scrapy is an open source and collaborative framework for extracting the data you
 
 **Project Name: Web Crawler**
 
-a web crawler for the FDA drug data from https://www.biopharmcatalyst.com/
+A web crawler for the FDA drug data from https://www.biopharmcatalyst.com/
 
 **How to run web crawler and generate report file** 
 
