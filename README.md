@@ -1,4 +1,7 @@
 # python projects
+* pygame - Snake Game
+* scrapy - Web Crawler
+
 ## pygame
 pygame (the library) is a Free and Open Source python programming language library for making multimedia applications like games built on top of the excellent SDL library. 
 
