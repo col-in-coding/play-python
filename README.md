@@ -12,4 +12,21 @@ The player controls a square on a bordered plane. As it moves forward, it leaves
 scrapy is an open source and collaborative framework for extracting the data you need from websites.
 
 **Project Name: Web Crawler**
-web crawler for the FDA drug data from https://www.biopharmcatalyst.com/
+
+a web crawler for the FDA drug data from https://www.biopharmcatalyst.com/
+
+**run web crawler and generate report file** 
+
+direct to the root file "biopharm", and execute the command line as below.
+
+For CSV file
+
+```
+scrapy crawler fda -o ./reports/xpt_mm_dd_YY.csv
+```
+
+For JSON file
+
+```
+scrapy crawler fda -o ./reports/xpt_mm_dd_YY.json
+```
