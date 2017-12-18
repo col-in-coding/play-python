@@ -24,11 +24,11 @@ Direct to the root file "biopharm", and then execute the command line as below.
 For CSV file
 
 ```
-scrapy crawler fda -o ./reports/xpt_mm_dd_YY.csv
+scrapy crawl fda -o ./reports/xpt_mm_dd_YY.csv
 ```
 
 For JSON file
 
 ```
-scrapy crawler fda -o ./reports/xpt_mm_dd_YY.json
+scrapy crawl fda -o ./reports/xpt_mm_dd_YY.json
 ```
