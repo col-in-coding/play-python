@@ -27,6 +27,6 @@ class FdaSpider(scrapy.Spider):
 				price = price.strip().replace("$",""),
 				drug = drug.strip(),
 				stage = stage.strip(),
-				date_text = "" if date_text is None else date_text.strip() + " ",
+				date_text = "" if date_text is None else date_text.strip()+";",
 				end_date = end_date.strip()
 				)
