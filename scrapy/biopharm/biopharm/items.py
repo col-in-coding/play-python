@@ -12,7 +12,9 @@ class BiopharmItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     ticker = scrapy.Field()
+    price = scrapy.Field()
     drug = scrapy.Field()
     stage = scrapy.Field()
-    date = scrapy.Field()
+    date_text = scrapy.Field()
+    end_date = scrapy.Field()
     
